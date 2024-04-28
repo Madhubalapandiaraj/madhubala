@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Information - Tech Institute</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Content - About Us -->
+    <div id="about-us-page" class="page">
+        <header>
+            <h1>Welcome to Tech Institute</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="about-us">
+                <div class="content">
+                    <h2>About Us</h2>
+                    <p>Welcome to Tech Institute, a leading institution dedicated to providing world-class education in the field of engineering. Established in 2000, Tech Institute has been at the forefront of innovation and excellence, preparing students for successful careers in technology and engineering.</p>
+                    <p>Our mission is to foster a dynamic learning environment that nurtures creativity, critical thinking, and problem-solving skills. We offer state-of-the-art facilities, experienced faculty, and hands-on learning opportunities to ensure that our students receive the highest quality education.</p>
+                    <p>At Tech Institute, we are committed to empowering our students to become leaders in their fields, driving innovation and making a positive impact on society. Join us and embark on an exciting journey towards a rewarding career in engineering.</p>
+                </div>
+            </section>
+            <section id="courses">
+                <div class="content">
+                    <h2>Courses Offered</h2>
+                    <ul>
+                        <li>Computer Science and Engineering (CSE)</li>
+                        <li>Information Technology (IT)</li>
+                        <li>Mechanical Engineering</li>
+                        <li>Electrical Engineering</li>
+                        <li>Civil Engineering</li>
+                        <li>Electronics and Communication Engineering (ECE)</li>
+                        <li>Chemical Engineering</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="content">
+                    <h2>Contact Us</h2>
+                    <p>Email: info@techinstitute.com</p>
+                    <p>Phone: 123-456-7890</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Contact: info@techinstitute.com</p>
+            <a href="#" id="login-link">Admin Login</a>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- Login Page -->
+<div id="login-page" class="page">
+    <div class="container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p id="error-message" class="error-message"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
